@@ -7,6 +7,16 @@
 </head>
 <body>
     <h1>Alô mundo!</h1>
-    <p>Parágrafoooooo</p>
+    <button id="botao">Enviar Mensagem</button>
 </body>
+
+<script>
+    function handleEnviarMensagem() {
+        alert('teste')
+    }
+
+    const button = window.document.getElementById('botao');
+
+    button.onclick = handleEnviarMensagem;
+</script>
 </html>
